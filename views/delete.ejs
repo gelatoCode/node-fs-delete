@@ -1,0 +1,9 @@
+
+
+<form method="POST" action="/delete/<%=data.id %>">
+    <p name="id"><%= data.id %></p>
+    Name : <input type="text" value="<%= data.name %>" name="name" placeholder="Please"><br>
+    Character : <input type="text" value = "<%= data.char %>" name="char"> <br>
+    Swim Style : <input type="text" value="<%= data.swim %>" name="swim"><br>
+    <input type="submit" value="Delete">
+</form>
